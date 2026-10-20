@@ -1,0 +1,28 @@
+{
+  "version": "0.1.1",
+  "candidateDate": "2026-10-20",
+  "parentDistribution": "Developer ID arm64 DMG",
+  "parentDmgSha256": "d801ba3a9d9fbde673c1a6bc4a9304943732782e03a9680f58caa6891bac4b3e",
+  "sourceArchive": {
+    "name": "OpenReader-0.1.0-phonemizer-source-v2.tar.gz",
+    "sha256": "4306d7b82e4e6dbadca377d87c8765b77d07e4ea853be63bec58c2cbf11e8f83",
+    "bytes": 293170474
+  },
+  "helperBinarySha256": "407510c2dbed51355e7f3637c318b1e4763eb15c949d304da563e6894e549e6a",
+  "runtimeSourceSha256": {
+    "phonemizer_helper/server.py": "d7157babc345f7d8c3e625ce317dc6f797b3cac1317e37a0f7672b0e65b9f562",
+    "phonemizer_helper/build.py": "fd16a96cd6164e84711f149745ed09a5faa4c390f6f455d058efb1ccfeb3bb2b",
+    "phonemizer_helper/__init__.py": "468697d3cb45927c0f527aa4bc5de11160f1efb69b87d24ad3ea69c625f036e7"
+  },
+  "applicationVersion": "0.1.0",
+  "sourcePackageDate": "2026-10-21",
+  "sourceCoverage": {
+    "pyzEntries": 1747,
+    "bootstrapAndEntryScripts": 10,
+    "baseLibraryModules": 155,
+    "frozenPythonDistributions": 53,
+    "freezingTools": 4,
+    "nativeSourceAndRecipeArchives": 6
+  },
+  "runtimeChanged": false
+}

@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import os
+import runpy
 import tarfile
 from pathlib import Path, PurePosixPath
 
@@ -43,8 +44,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('archive', type=Path)
     parser.add_argument('--helper-dir', type=Path)
+    parser.add_argument('--release', default='v0.1.1', choices=['v0.1.0', 'v0.1.1'])
     args = parser.parse_args()
-    release = json.loads((ROOT / 'releases/v0.1.0/release.json').read_text())
+    release = json.loads((ROOT / 'releases' / args.release / 'release.json').read_text())
     if digest(args.archive) != release['sourceArchive']['sha256']:
         raise ValueError('Downloaded source archive SHA-256 differs from the pinned release')
     prefix = 'openreader-phonemizer-source/'
@@ -81,9 +83,20 @@ def main() -> None:
                 raise ValueError('Selected helper executable differs from the signed candidate')
             if inventory(helper) != source['helper_distribution']:
                 raise ValueError('Selected helper distribution differs from the signed candidate')
+            if release.get('sourceCoverage'):
+                files = {
+                    name: archive.extractfile(prefix + name).read()
+                    for name in source['files']
+                    if name.startswith(('frozen-sources/', 'phonemizer_helper/'))
+                    or name == 'frozen-source-coverage.json'
+                }
+                verifier = runpy.run_path(str(ROOT / 'phonemizer_helper/source_snapshot.py'))
+                verifier['verify_snapshot'](helper.parent, files)
     print('PASS: source archive, all manifest files, repository runtime, and build association')
     if args.helper_dir:
         print('PASS: complete selected signed helper distribution matches the source manifest')
+        if release.get('sourceCoverage'):
+            print('PASS: every frozen Python module and GCC runtime section matches its source record')
 
 
 if __name__ == '__main__':

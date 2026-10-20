@@ -1,0 +1,557 @@
+{
+  "schema": 1,
+  "packages": [
+    {
+      "name": "anyio",
+      "version": "4.14.2",
+      "file": "anyio-4.14.2.tar.gz",
+      "sha256": "cfa139f3ed1a23ee8f88a145ddb5ac7605b8bbfd8592baacd7ce3d8bb4313c7f",
+      "url": "https://files.pythonhosted.org/packages/61/cc/a381afa6efea9f496eff839d4a6a1aed3bfafc7b3ab4b0d1b243a12573dd/anyio-4.14.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 260176
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "file": "attrs-26.1.0.tar.gz",
+      "sha256": "d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32",
+      "url": "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 952055
+    },
+    {
+      "name": "babel",
+      "version": "2.18.0",
+      "file": "babel-2.18.0.tar.gz",
+      "sha256": "b80b99a14bd085fcacfa15c9165f651fbb3406e66cc603abf11c5750937c992d",
+      "url": "https://files.pythonhosted.org/packages/7d/b2/51899539b6ceeeb420d40ed3cd4b7a40519404f9baf3d4ac99dc413a834b/babel-2.18.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 9959554
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.15.0",
+      "file": "beautifulsoup4-4.15.0.tar.gz",
+      "sha256": "288e3ca7d54b06f2ac191970bc275c1939cb46d450b255bf6718b04aa37ab4f7",
+      "url": "https://files.pythonhosted.org/packages/43/65/318323f98dbee45d42dff61d8f047181bc6f2268a9068cfad035a46be5af/beautifulsoup4-4.15.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 632571
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "file": "certifi-2026.7.22.tar.gz",
+      "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+      "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 138112
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.9",
+      "file": "charset_normalizer-3.4.9.tar.gz",
+      "sha256": "673611bbd43f0810bec0b0f028ddeaaa501190339cac411f347ac76917c3ae7b",
+      "url": "https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 152439
+    },
+    {
+      "name": "click",
+      "version": "8.4.2",
+      "file": "click-8.4.2.tar.gz",
+      "sha256": "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6",
+      "url": "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 338000
+    },
+    {
+      "name": "csvw",
+      "version": "4.1.0",
+      "file": "csvw-4.1.0.tar.gz",
+      "sha256": "bfe2b64442552b392577a8d30edf886510c8d05e665606fa5caa1508365fd700",
+      "url": "https://files.pythonhosted.org/packages/c5/f1/95a10e22505e84bf346dd8df41d9c6135aea564d83d8e39b79b0851ba4db/csvw-4.1.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 83167
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "file": "defusedxml-0.7.1.tar.gz",
+      "sha256": "1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69",
+      "url": "https://files.pythonhosted.org/packages/0f/d5/c66da9b79e5bdb124974bfe172b4daf3c984ebd9c2a06e2b8a4dc7331c72/defusedxml-0.7.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 75520
+    },
+    {
+      "name": "dlinfo",
+      "version": "2.0.0",
+      "file": "dlinfo-2.0.0.tar.gz",
+      "sha256": "88a2bc04f51d01bc604cdc9eb1c3cc0bde89057532ca6a3e71a41f6235433e17",
+      "url": "https://files.pythonhosted.org/packages/85/8e/8f2f94cd40af1b51e8e371a83b385d622170d42f98776441a6118f4dd682/dlinfo-2.0.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 12727
+    },
+    {
+      "name": "espeakng-loader",
+      "version": "0.2.4",
+      "file": "espeakng-loader-0ddc87adf77e5850d7eeb542ac8a87d421b64daa.tar.gz",
+      "sha256": "3b355358c4f5f1add9eb52deb78e08cf3a8130a3b24fa2c2cf534cada66289c1",
+      "url": "https://github.com/thewh1teagle/espeakng-loader/tree/0ddc87adf77e5850d7eeb542ac8a87d421b64daa",
+      "role": "frozen-runtime",
+      "bytes": 4543
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "file": "h11-0.16.0.tar.gz",
+      "sha256": "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1",
+      "url": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 101250
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "file": "httpcore-1.0.9.tar.gz",
+      "sha256": "6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8",
+      "url": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 85484
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "file": "httpx-0.28.1.tar.gz",
+      "sha256": "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc",
+      "url": "https://files.pythonhosted.org/packages/b1/df/48c586a5fe32a0f01324ee087459e112ebb7224f646c0b5023f5e79e9956/httpx-0.28.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 141406
+    },
+    {
+      "name": "idna",
+      "version": "3.18",
+      "file": "idna-3.18.tar.gz",
+      "sha256": "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848",
+      "url": "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 196711
+    },
+    {
+      "name": "isodate",
+      "version": "0.7.2",
+      "file": "isodate-0.7.2.tar.gz",
+      "sha256": "4cd1aa0f43ca76f4a6c6c0292a85f40b35ec2e43e315b59f06e6d32171a953e6",
+      "url": "https://files.pythonhosted.org/packages/54/4d/e940025e2ce31a8ce1202635910747e5a87cc3a6a6bb2d00973375014749/isodate-0.7.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 29705
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "file": "jinja2-3.1.6.tar.gz",
+      "sha256": "0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d",
+      "url": "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c72f3e33cef02e048281fec7ecec5f032d4aac52226b/jinja2-3.1.6.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 245115
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "file": "joblib-1.5.3.tar.gz",
+      "sha256": "8561a3269e6801106863fd0d6d84bb737be9e7631e33aaed3fb9ce5953688da3",
+      "url": "https://files.pythonhosted.org/packages/41/f2/d34e8b3a08a9cc79a50b2208a93dce981fe615b64d5a4d4abee421d898df/joblib-1.5.3.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 331603
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "file": "jsonschema-4.26.0.tar.gz",
+      "sha256": "0c26707e2efad8aa1bfc5b7ce170f3fccc2e4918ff85989ba9ffa9facb2be326",
+      "url": "https://files.pythonhosted.org/packages/b3/fc/e067678238fa451312d4c62bf6e6cf5ec56375422aee02f9cb5f909b3047/jsonschema-4.26.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 366583
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "file": "jsonschema_specifications-2025.9.1.tar.gz",
+      "sha256": "b540987f239e745613c7a9176f3edb72b832a4ac465cf02712288397832b5e8d",
+      "url": "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 32855
+    },
+    {
+      "name": "language-tags",
+      "version": "1.3.1",
+      "file": "language_tags-1.3.1.tar.gz",
+      "sha256": "b15f05505dad3ad296a1782d5a6083fd141309186094d1ab08095348f4203f37",
+      "url": "https://files.pythonhosted.org/packages/39/d1/b37165bed9016c19e2cdecf4176fbd902a014fb8a87dd44415438e190969/language_tags-1.3.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 222642
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.1",
+      "file": "lxml-6.1.1.tar.gz",
+      "sha256": "ba96ae44888e0185281e937633a743ea90d5a196c6000f82565ebb0580012d40",
+      "url": "https://files.pythonhosted.org/packages/05/3b/aab6728cae887456f409b4d75e8a01856e4f04bd510de38052a47768b680/lxml-6.1.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 4197430
+    },
+    {
+      "name": "lxml_html_clean",
+      "version": "0.4.5",
+      "file": "lxml_html_clean-0.4.5.tar.gz",
+      "sha256": "e2a4c7d5beedd17cd7b484d848a0571e54baa239a4f9df5546e3acba7f990560",
+      "url": "https://files.pythonhosted.org/packages/0a/63/195dfdde380a84df309e3bccf4384b034b745dba43426886f7ae623b4fba/lxml_html_clean-0.4.5.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 24142
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "file": "markdown_it_py-4.2.0.tar.gz",
+      "sha256": "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49",
+      "url": "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 82454
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "file": "markupsafe-3.0.3.tar.gz",
+      "sha256": "722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698",
+      "url": "https://files.pythonhosted.org/packages/7e/99/7690b6d4034fffd95959cbe0c02de8deb3098cc577c67bb6a24fe5d7caa7/markupsafe-3.0.3.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 80313
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "file": "mdurl-0.1.2.tar.gz",
+      "sha256": "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba",
+      "url": "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 8729
+    },
+    {
+      "name": "misaki",
+      "version": "0.9.4",
+      "file": "misaki-0.9.4.tar.gz",
+      "sha256": "3960fa3e6de179a90ee8e628446a4a4f6b8c730b6e3410999cf396189f4d9c40",
+      "url": "https://files.pythonhosted.org/packages/1a/c7/fb01370a76585b46595a01b52f18e65c8ba6d7a313a05e5d9fff0a8e1c69/misaki-0.9.4.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 3756765
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "file": "numpy-1.26.4.tar.gz",
+      "sha256": "2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010",
+      "url": "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 15786129
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "file": "packaging-26.2.tar.gz",
+      "sha256": "ff452ff5a3e828ce110190feff1178bb1f2ea2281fa2075aadb987c2fb221661",
+      "url": "https://files.pythonhosted.org/packages/d7/f1/e7a6dd94a8d4a5626c03e4e99c87f241ba9e350cd9e6d75123f992427270/packaging-26.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 228134
+    },
+    {
+      "name": "phonemizer-fork",
+      "version": "3.3.2",
+      "file": "phonemizer_fork-3.3.2.tar.gz",
+      "sha256": "10e16e827d0443b087062e21b55e805c00989cf1343b2e81e734cae5f6c0cf69",
+      "url": "https://files.pythonhosted.org/packages/42/fa/9294d2f11890ca49d0bdac7a4da60cbe5686629bfd4987cae0ad75e051cc/phonemizer_fork-3.3.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 300989
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "file": "pillow-12.3.0.tar.gz",
+      "sha256": "3b8182a766685eaa002637e28b4ec8d6b18819a0c71f579bf0dbaa5830297cce",
+      "url": "https://files.pythonhosted.org/packages/1c/3d/bb7fca845737cf9d7dbde16ed1843984665ff2e0a518f5db43e77ec540b9/pillow-12.3.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 47025035
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "file": "psutil-7.2.2.tar.gz",
+      "sha256": "0746f5f8d406af344fd547f1c8daa5f5c33dbc293bb8d6a16d80b4bb88f59372",
+      "url": "https://files.pythonhosted.org/packages/aa/c6/d1ddf4abb55e93cebc4f2ed8b5d6dbad109ecb8d63748dd2b20ab5e57ebe/psutil-7.2.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 493740
+    },
+    {
+      "name": "Pygments",
+      "version": "2.20.0",
+      "file": "pygments-2.20.0.tar.gz",
+      "sha256": "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f",
+      "url": "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 4955991
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "file": "pyparsing-3.3.2.tar.gz",
+      "sha256": "c777f4d763f140633dcb6d8a3eda953bf7a214dc4eff598413c070bcdc117cbc",
+      "url": "https://files.pythonhosted.org/packages/f3/91/9c6ee907786a473bf81c5f53cf703ba0957b23ab84c264080fb5a450416f/pyparsing-3.3.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 6851574
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "file": "pytest-9.1.1.tar.gz",
+      "sha256": "1088fbde8f2b49d95a549a195707afa7a76a3ce9bcadc26b6d71f0ffda5fe313",
+      "url": "https://files.pythonhosted.org/packages/e4/47/b9efed96c114afcfa3c9d3fe98a76a1d14c74a9e266d397cf6eb64be5e01/pytest-9.1.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 1636369
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "file": "python-dateutil-2.9.0.post0.tar.gz",
+      "sha256": "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+      "url": "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 342432
+    },
+    {
+      "name": "pytz",
+      "version": "2026.3.post1",
+      "file": "pytz-2026.3.post1.tar.gz",
+      "sha256": "2211d3fcf9a797d3405cac96ac7f61d80e6a644f72a3309607282fe8a2010c5d",
+      "url": "https://files.pythonhosted.org/packages/fb/48/fb042503b6ca6cd271261dc559fd6432f7d8c713153e9ec5c591af4dfc1c/pytz-2026.3.post1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 319745
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "file": "pyyaml-6.0.3.tar.gz",
+      "sha256": "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f",
+      "url": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 130960
+    },
+    {
+      "name": "rdflib",
+      "version": "7.6.0",
+      "file": "rdflib-7.6.0.tar.gz",
+      "sha256": "6c831288d5e4a5a7ece85d0ccde9877d512a3d0f02d7c06455d00d6d0ea379df",
+      "url": "https://files.pythonhosted.org/packages/98/f5/18bb77b7af9526add0c727a3b2048959847dc5fb030913e2918bf384fec3/rdflib-7.6.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 4943826
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0",
+      "file": "referencing-0.37.0.tar.gz",
+      "sha256": "44aefc3142c5b842538163acb373e24cce6632bd54bdb01b21ad5863489f50d8",
+      "url": "https://files.pythonhosted.org/packages/22/f5/df4e9027acead3ecc63e50fe1e36aca1523e1719559c499951bb4b53188f/referencing-0.37.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 78036
+    },
+    {
+      "name": "regex",
+      "version": "2026.7.19",
+      "file": "regex-2026.7.19.tar.gz",
+      "sha256": "7e77b324909c1617cbb4c668677e2c6ae13f44d7c1de0d4f15f2e3c10f3315b5",
+      "url": "https://files.pythonhosted.org/packages/20/98/04b13f1ddfb63158025291c02e03eb42fbb7acb51d091d541050eb4e35e8/regex-2026.7.19.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 416440
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "file": "requests-2.34.2.tar.gz",
+      "sha256": "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed",
+      "url": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 142856
+    },
+    {
+      "name": "rfc3986",
+      "version": "1.5.0",
+      "file": "rfc3986-1.5.0.tar.gz",
+      "sha256": "270aaf10d87d0d4e095063c65bf3ddbc6ee3d0b226328ce21e036f946e421835",
+      "url": "https://files.pythonhosted.org/packages/79/30/5b1b6c28c105629cc12b33bdcbb0b11b5bb1880c6cfbd955f9e792921aa8/rfc3986-1.5.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 49378
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "file": "rich-15.0.0.tar.gz",
+      "sha256": "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36",
+      "url": "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 230680
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.6.3",
+      "file": "rpds_py-2026.6.3.tar.gz",
+      "sha256": "1cebd1337c242e4ec2293e541f712b2da849b29f48f0c293684b71c0632625d4",
+      "url": "https://files.pythonhosted.org/packages/aa/2a/9618a122aeb2a169a28b03889a2995fe297588964333d4a7d67bdf46e147/rpds_py-2026.6.3.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 64051
+    },
+    {
+      "name": "segments",
+      "version": "2.4.0",
+      "file": "segments-2.4.0.tar.gz",
+      "sha256": "bba71f5520ddd54c8aa2f4d765a60618c6862162d6e7356a4a097f2223166f5b",
+      "url": "https://files.pythonhosted.org/packages/8b/57/85cac3a8e32370e88fa5fa92812edb6025db7fcbed51452bd56ee1524957/segments-2.4.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 18662
+    },
+    {
+      "name": "setuptools",
+      "version": "80.10.2",
+      "file": "setuptools-80.10.2.tar.gz",
+      "sha256": "8b0e9d10c784bf7d262c4e5ec5d4ec94127ce206e8738f29a437945fbc219b70",
+      "url": "https://files.pythonhosted.org/packages/76/95/faf61eb8363f26aa7e1d762267a8d602a1b26d4f3a1e758e92cb3cb8b054/setuptools-80.10.2.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 1200343
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "file": "six-1.17.0.tar.gz",
+      "sha256": "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81",
+      "url": "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 34031
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.9.1",
+      "file": "soupsieve-2.9.1.tar.gz",
+      "sha256": "c33e6605bbc71dd628b00c632d58ae607c22bade247e52553928f83bbb75b4ba",
+      "url": "https://files.pythonhosted.org/packages/d9/38/e12680bbe6b4f8f3d17adcaf38d26850aa756c85cf4a80e79fc12a018fe8/soupsieve-2.9.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 122261
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "file": "typing_extensions-4.16.0.tar.gz",
+      "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5",
+      "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 113555
+    },
+    {
+      "name": "uritemplate",
+      "version": "4.2.0",
+      "file": "uritemplate-4.2.0.tar.gz",
+      "sha256": "480c2ed180878955863323eea31b0ede668795de182617fef9c6ca09e6ec9d0e",
+      "url": "https://files.pythonhosted.org/packages/98/60/f174043244c5306c9988380d2cb10009f91563fc4b31293d27e17201af56/uritemplate-4.2.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 33267
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0",
+      "file": "urllib3-2.7.0.tar.gz",
+      "sha256": "231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c",
+      "url": "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 433602
+    },
+    {
+      "name": "uvloop",
+      "version": "0.22.1",
+      "file": "uvloop-0.22.1.tar.gz",
+      "sha256": "6c84bae345b9147082b17371e3dd5d42775bddce91f885499017f4607fdaf39f",
+      "url": "https://files.pythonhosted.org/packages/06/f0/18d39dbd1971d6d62c4629cc7fa67f74821b0dc1f5a77af43719de7936a7/uvloop-0.22.1.tar.gz",
+      "role": "frozen-runtime",
+      "bytes": 2443250
+    },
+    {
+      "name": "pyinstaller",
+      "version": "6.22.2",
+      "file": "pyinstaller-6.22.2.tar.gz",
+      "sha256": "89b65a3ad07d9dd5832253e37bc45f31872d10d7f9d5c9fd0fdd6088a83829dd",
+      "url": "https://files.pythonhosted.org/packages/cc/2b/836d9def811c02522e0921d8b8cdf0c16b0545a216e97e71041758057859/pyinstaller-6.22.2.tar.gz",
+      "role": "build-tool",
+      "bytes": 4092631
+    },
+    {
+      "name": "pyinstaller-hooks-contrib",
+      "version": "2026.6",
+      "file": "pyinstaller_hooks_contrib-2026.6.tar.gz",
+      "sha256": "bef5002c32f4f50bd55b005da12cff64eca8783e7eaf86a06a62410164bab725",
+      "url": "https://files.pythonhosted.org/packages/94/5b/c9fe0db5e83ee1c39b2258fa21d23b15e1a60786b6c5990ee5074ead8bb6/pyinstaller_hooks_contrib-2026.6.tar.gz",
+      "role": "build-tool",
+      "bytes": 173354
+    },
+    {
+      "name": "altgraph",
+      "version": "0.17.5",
+      "file": "altgraph-0.17.5.tar.gz",
+      "sha256": "c87b395dd12fabde9c99573a9749d67da8d29ef9de0125c7f536699b4a9bc9e7",
+      "url": "https://files.pythonhosted.org/packages/7e/f8/97fdf103f38fed6792a1601dbc16cc8aac56e7459a9fff08c812d8ae177a/altgraph-0.17.5.tar.gz",
+      "role": "build-tool",
+      "bytes": 48428
+    },
+    {
+      "name": "macholib",
+      "version": "1.16.4",
+      "file": "macholib-1.16.4.tar.gz",
+      "sha256": "f408c93ab2e995cd2c46e34fe328b130404be143469e41bc366c807448979362",
+      "url": "https://files.pythonhosted.org/packages/10/2f/97589876ea967487978071c9042518d28b958d87b17dceb7cdc1d881f963/macholib-1.16.4.tar.gz",
+      "role": "build-tool",
+      "bytes": 59427
+    }
+  ],
+  "nativeSources": [
+    {
+      "file": "Python-3.12.10.tar.xz",
+      "url": "https://www.python.org/ftp/python/3.12.10/Python-3.12.10.tar.xz",
+      "sha256": "07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea",
+      "bytes": 20520960
+    },
+    {
+      "file": "openblas-c2f4bdbb.tar.gz",
+      "url": "https://codeload.github.com/OpenMathLib/OpenBLAS/tar.gz/c2f4bdbb",
+      "sha256": "39733784bdbe90d2634d94e276a5180577ebc1c69447aaed8191d865edb616a7",
+      "bytes": 24239902
+    },
+    {
+      "file": "gcc-11.3.0.tar.xz",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-11.3.0/gcc-11.3.0.tar.xz",
+      "sha256": "b47cf2818691f5b1e21df2bb38c795fac2cfbd640ede2d0a5e1c89e338a3ac39",
+      "bytes": 81141364
+    },
+    {
+      "file": "espeak-ng-4870adfa.tar.gz",
+      "url": "https://codeload.github.com/espeak-ng/espeak-ng/tar.gz/4870adfa25b1a32b4361592f1be8a40337c58d6c",
+      "sha256": "cd83f84c4e495f281ac14e919aecf2834306ec1ea1b498de8ef6000f3a0f90de",
+      "bytes": 17747711,
+      "role": "eSpeak source pinned by the upstream loader build tree"
+    },
+    {
+      "file": "gfortran-11.3.0-conda-recipe.tar.gz",
+      "url": "https://api.anaconda.org/download/conda-forge/libgfortran5/11.3.0/osx-arm64/libgfortran5-11.3.0-hdaf2cc0_26.tar.bz2",
+      "sha256": "f9b80ff19a75896c0f7651af92983578f684c5e4c4ff14cded4c3255ff46a17e",
+      "bytes": 180633
+    },
+    {
+      "file": "openblas-build-1949e84a.tar.gz",
+      "url": "https://github.com/MacPython/openblas-libs/tree/1949e84a97655ed586a2cb4b469e98efec8651c0",
+      "sha256": "d50533e3cd6133e41e98fc11b411611dc1d8a068aa20e519e62e650e4a32b025",
+      "bytes": 350273
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+OPENREADER THIRD-PARTY COMPONENT RIGHTS
+Effective date: October 21, 2026
+
+OpenReader contains separately licensed third-party software. The OpenReader
+application license covers only code and materials its owner has the right to
+license. It does not replace or restrict third-party licenses.
+
+The separate openreader-phonemizer-helper process, including its GPL-covered
+pronunciation components, is provided under GPL-3.0-or-later. You may run, copy,
+modify and redistribute that helper under the GPL. These permissions apply to
+the helper supplied inside the app as well as to its separately available
+source. You do not need a proprietary OpenReader license or further permission
+from OpenReader's owner to exercise those GPL rights.
+
+No restriction imposed by OpenReader's owner on copying, modification, reverse
+engineering, transfer, redistribution, sublicensing, device use or commercial
+use of the proprietary application applies to the GPL helper or overrides
+rights granted by another component's license. Third-party components are
+excluded from any conflicting proprietary restriction. Their applicable
+licenses govern them, including LGPL modification/relinking rights and MPL
+source rights. No confidentiality obligation applies to those component
+sources. No additional fee or agreement is required to obtain their provided
+source or exercise the rights their licenses grant.
+
+The helper is a separately executable program. Its documented interface uses
+newline-delimited JSON with text/language requests and phoneme responses over
+standard input/output. Its source, build instructions and versioned release
+materials are available without login at:
+
+https://github.com/patriciobcs/openreader-phonemizer-helper
+https://github.com/patriciobcs/openreader-phonemizer-helper/releases
+
+Select the source release whose manifest identifies your helper executable
+and distribution. Source archives include the GPL text, component notices,
+dependency source/build materials and integrity checks. Redistribution and
+modification remain subject to those components' own license conditions.
+
+The complete GPL text and other bundled notices are in the app's
+Contents/SharedSupport directory. See THIRD_PARTY_LICENSES.md and NOTICE.md
+for component attribution, other model/software terms and source locations.
+
+This notice states the rights preserved by OpenReader's owner. It does not
+purport to amend Apple's agreements or provide Apple's private signing keys.
+OpenReader's owner does not use this notice or the application license to
+claim an exclusive right to redistribute the GPL helper.
+
+Questions or missing source materials: contact@openreader.io

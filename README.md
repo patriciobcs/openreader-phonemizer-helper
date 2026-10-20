@@ -11,17 +11,23 @@ OpenReader main backend, reader UI, and application repository are not included.
 
 ## Release source
 
-Download [the v0.1.0 source materials](https://github.com/patriciobcs/openreader-phonemizer-helper/releases/tag/v0.1.0).
-The release provides `OpenReader-0.1.0-phonemizer-source.tar.gz` and
+Download [the v0.1.1 source materials](https://github.com/patriciobcs/openreader-phonemizer-helper/releases/tag/v0.1.1).
+The release provides `OpenReader-0.1.0-phonemizer-source-v2.tar.gz` and
 `SHA256SUMS.txt`. The archive includes:
 
 - This helper's original Python source and build recipe.
 - Pinned eSpeak NG 1.52.0, phonemizer-fork 3.3.2, and Misaki 0.9.4 sources.
 - The exact espeakng-loader 0.2.4 Apple Silicon wheel and extracted Python loader.
 - The original parent desktop dependency declarations and lockfile.
+- Source for all 53 frozen Python distributions and four freezing tools, with notices.
+- Exact Python source checked against all 1,747 PYZ entries, 10 bootstrap/entry
+  scripts and 155 base-library modules in the signed helper.
+- CPython, OpenBLAS and GCC source and native build recipes/patches. The three
+  GCC runtime libraries are associated through arm64 compiled-section hashes.
+- The loader's pinned upstream MIT source and license.
 - A manifest of all included files and the complete signed helper distribution.
 
-See [the build association](releases/v0.1.0/README.md) for the exact candidate
+See [the build association](releases/v0.1.1/README.md) for the exact candidate
 and verification scope. Future app candidates must verify their helper against
 the source materials; the same app version alone is not sufficient evidence.
 
@@ -89,8 +95,10 @@ language for the lifetime of the process.
 First-party helper code is GPL-3.0-or-later; see [LICENSE](LICENSE) and
 [NOTICE.md](NOTICE.md). Upstream components retain their own terms.
 
-These source materials establish a public location and a verifiable association
-with one signed helper distribution. They do not certify the full application's
-corresponding-source scope, LGPL relinking arrangements, unresolved upstream
-loader provenance, or Mac App Store compatibility. The independent process
-boundary is a technical fact; distribution review remains separate.
+You may run, copy, modify and redistribute the GPL helper, including the copy
+bundled inside OpenReader. The proprietary application license does not restrict
+those permissions. See [component rights](licenses/THIRD-PARTY-RIGHTS.txt).
+
+These materials identify one signed helper distribution. Other builds need their
+own matching manifest. Application dependencies outside this helper and Apple's
+review remain separate. No private application source or signing key is included.

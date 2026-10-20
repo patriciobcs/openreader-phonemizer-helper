@@ -1,0 +1,27 @@
+{
+  "compilerRelease": "gcc-11.3.0-2",
+  "compilerArchiveSha1PinFromNumpy": "527232845abc5af21f21ceacc46fb19c190fe804",
+  "libraries": [
+    {
+      "library": "libgcc_s.1.1.dylib",
+      "upstreamSectionSha256": "9b60849b7872a5c988d646455103e1c905c933ca5c3abe88976173d285d6bef0",
+      "signedHelperSectionSha256": "9b60849b7872a5c988d646455103e1c905c933ca5c3abe88976173d285d6bef0",
+      "matches": true
+    },
+    {
+      "library": "libgfortran.5.dylib",
+      "upstreamSectionSha256": "15f344d32ee13635dcc4b3fe34209ca814efe7e67b705a3eccde1d624daf74be",
+      "signedHelperSectionSha256": "15f344d32ee13635dcc4b3fe34209ca814efe7e67b705a3eccde1d624daf74be",
+      "matches": true
+    },
+    {
+      "library": "libquadmath.0.dylib",
+      "upstreamSectionSha256": "644dffa844aaebcb99664c6d8aa33bc4b29480111f0caf10198c50a043b1703b",
+      "signedHelperSectionSha256": "644dffa844aaebcb99664c6d8aa33bc4b29480111f0caf10198c50a043b1703b",
+      "matches": true
+    }
+  ],
+  "comparison": "Mach-O section bytes, excluding signatures/load-command path rewriting",
+  "recipeSource": "https://api.anaconda.org/download/conda-forge/libgfortran5/11.3.0/osx-arm64/libgfortran5-11.3.0-hdaf2cc0_26.tar.bz2",
+  "recipeArchiveSha256": "f9b80ff19a75896c0f7651af92983578f684c5e4c4ff14cded4c3255ff46a17e"
+}
