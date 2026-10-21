@@ -44,9 +44,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('archive', type=Path)
     parser.add_argument('--helper-dir', type=Path)
-    parser.add_argument('--release', default='v0.1.1', choices=['v0.1.0', 'v0.1.1'])
+    parser.add_argument('--release', default='v0.1.2', choices=['v0.1.0', 'v0.1.1', 'v0.1.2'])
+    parser.add_argument('--channel', default='dmg', choices=['dmg', 'app-store'])
     args = parser.parse_args()
     release = json.loads((ROOT / 'releases' / args.release / 'release.json').read_text())
+    if 'distributions' in release:
+        release = release['distributions'][args.channel]
     if digest(args.archive) != release['sourceArchive']['sha256']:
         raise ValueError('Downloaded source archive SHA-256 differs from the pinned release')
     prefix = 'openreader-phonemizer-source/'

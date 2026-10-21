@@ -11,9 +11,9 @@ OpenReader main backend, reader UI, and application repository are not included.
 
 ## Release source
 
-Download [the v0.1.1 source materials](https://github.com/patriciobcs/openreader-phonemizer-helper/releases/tag/v0.1.1).
-The release provides `OpenReader-0.1.0-phonemizer-source-v2.tar.gz` and
-`SHA256SUMS.txt`. The archive includes:
+Download [the v0.1.2 source materials](https://github.com/patriciobcs/openreader-phonemizer-helper/releases/tag/v0.1.2).
+The release provides separate archives matching the signed DMG and Mac App Store
+helpers, plus `SHA256SUMS.txt`. Choose the channel matching your app. Each archive includes:
 
 - This helper's original Python source and build recipe.
 - Pinned eSpeak NG 1.52.0, phonemizer-fork 3.3.2, and Misaki 0.9.4 sources.
@@ -27,7 +27,7 @@ The release provides `OpenReader-0.1.0-phonemizer-source-v2.tar.gz` and
 - The loader's pinned upstream MIT source and license.
 - A manifest of all included files and the complete signed helper distribution.
 
-See [the build association](releases/v0.1.1/README.md) for the exact candidate
+See [the build associations](releases/v0.1.2/README.md) for the exact candidates
 and verification scope. Future app candidates must verify their helper against
 the source materials; the same app version alone is not sufficient evidence.
 
@@ -102,3 +102,6 @@ those permissions. See [component rights](licenses/THIRD-PARTY-RIGHTS.txt).
 These materials identify one signed helper distribution. Other builds need their
 own matching manifest. Application dependencies outside this helper and Apple's
 review remain separate. No private application source or signing key is included.
+
+Other covered-library source, notices and personal modification instructions are
+available at https://catalog.openreader.io/compliance/index.html .

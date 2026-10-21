@@ -1,0 +1,64 @@
+{
+  "version": "0.1.2",
+  "applicationVersion": "0.1.0",
+  "sourcePackageDate": "2026-10-21",
+  "runtimeChanged": false,
+  "distributions": {
+    "dmg": {
+      "version": "0.1.2",
+      "candidateDate": "2026-10-21",
+      "parentDistribution": "Developer ID arm64 DMG",
+      "sourceArchive": {
+        "name": "OpenReader-0.1.0-aarch64-apple-darwin-phonemizer-source.tar.gz",
+        "sha256": "ca37279b5d04d0340422adeb5d8eaef9d7981df6d4b80f7da95e521135e875ee",
+        "bytes": 293170690
+      },
+      "helperBinarySha256": "13246d65367ab26e94b25c78c710de001f1728b35e5cb95870fe7a15e32e9aef",
+      "runtimeSourceSha256": {
+        "phonemizer_helper/server.py": "d7157babc345f7d8c3e625ce317dc6f797b3cac1317e37a0f7672b0e65b9f562",
+        "phonemizer_helper/build.py": "fd16a96cd6164e84711f149745ed09a5faa4c390f6f455d058efb1ccfeb3bb2b",
+        "phonemizer_helper/__init__.py": "468697d3cb45927c0f527aa4bc5de11160f1efb69b87d24ad3ea69c625f036e7"
+      },
+      "applicationVersion": "0.1.0",
+      "sourcePackageDate": "2026-10-21",
+      "sourceCoverage": {
+        "pyzEntries": 1747,
+        "bootstrapAndEntryScripts": 10,
+        "baseLibraryModules": 155,
+        "frozenPythonDistributions": 53,
+        "freezingTools": 4,
+        "nativeSourceAndRecipeArchives": 6
+      },
+      "runtimeChanged": false,
+      "parentArtifactSha256": "18de54571e27e5d1373db7ea388fc5d8e5d30c8b88b59fcea05e406b3691b8eb"
+    },
+    "app-store": {
+      "version": "0.1.2",
+      "candidateDate": "2026-10-21",
+      "parentDistribution": "Mac App Store arm64 candidate",
+      "sourceArchive": {
+        "name": "OpenReader-0.1.0-mas-phonemizer-source.tar.gz",
+        "sha256": "5381a00ae8d574bc360e7c5d71ef298452cf58becbaa15a5d5387a54e4052b38",
+        "bytes": 293170827
+      },
+      "helperBinarySha256": "0751acc029dd3772c9b8db9dd6dd69e06fb926c7f62ca42fa45830951d78c0af",
+      "runtimeSourceSha256": {
+        "phonemizer_helper/server.py": "d7157babc345f7d8c3e625ce317dc6f797b3cac1317e37a0f7672b0e65b9f562",
+        "phonemizer_helper/build.py": "fd16a96cd6164e84711f149745ed09a5faa4c390f6f455d058efb1ccfeb3bb2b",
+        "phonemizer_helper/__init__.py": "468697d3cb45927c0f527aa4bc5de11160f1efb69b87d24ad3ea69c625f036e7"
+      },
+      "applicationVersion": "0.1.0",
+      "sourcePackageDate": "2026-10-21",
+      "sourceCoverage": {
+        "pyzEntries": 1747,
+        "bootstrapAndEntryScripts": 10,
+        "baseLibraryModules": 155,
+        "frozenPythonDistributions": 53,
+        "freezingTools": 4,
+        "nativeSourceAndRecipeArchives": 6
+      },
+      "runtimeChanged": false,
+      "parentArtifactSha256": "197c8340e8c1523f9d304893bce2feb9d96ad99bd70d50efac41a9de46204e2e"
+    }
+  }
+}
