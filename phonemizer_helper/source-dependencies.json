@@ -39,12 +39,12 @@
     },
     {
       "name": "certifi",
-      "version": "2026.7.22",
-      "file": "certifi-2026.7.22.tar.gz",
-      "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
-      "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+      "version": "2026.10.19",
+      "file": "certifi-2026.10.19.tar.gz",
+      "sha256": "035c1e85572b141bf1c3a3eff0e33a8eb74917522f2559075ff8d2fea780a1ae",
+      "url": "https://files.pythonhosted.org/packages/a6/bd/1436c50cc46699de0230fbaacc1d1de7bfec413176099949e9d5112e88f2/certifi-2026.10.19.tar.gz",
       "role": "frozen-runtime",
-      "bytes": 138112
+      "bytes": 137598
     },
     {
       "name": "charset-normalizer",
@@ -273,12 +273,12 @@
     },
     {
       "name": "pillow",
-      "version": "12.3.0",
-      "file": "pillow-12.3.0.tar.gz",
-      "sha256": "3b8182a766685eaa002637e28b4ec8d6b18819a0c71f579bf0dbaa5830297cce",
-      "url": "https://files.pythonhosted.org/packages/1c/3d/bb7fca845737cf9d7dbde16ed1843984665ff2e0a518f5db43e77ec540b9/pillow-12.3.0.tar.gz",
+      "version": "13.0.0",
+      "file": "pillow-13.0.0.tar.gz",
+      "sha256": "cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510",
+      "url": "https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz",
       "role": "frozen-runtime",
-      "bytes": 47025035
+      "bytes": 47058631
     },
     {
       "name": "psutil",
@@ -417,12 +417,12 @@
     },
     {
       "name": "setuptools",
-      "version": "80.10.2",
-      "file": "setuptools-80.10.2.tar.gz",
-      "sha256": "8b0e9d10c784bf7d262c4e5ec5d4ec94127ce206e8738f29a437945fbc219b70",
-      "url": "https://files.pythonhosted.org/packages/76/95/faf61eb8363f26aa7e1d762267a8d602a1b26d4f3a1e758e92cb3cb8b054/setuptools-80.10.2.tar.gz",
+      "version": "84.2.1",
+      "file": "setuptools-84.2.1.tar.gz",
+      "sha256": "3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc",
+      "url": "https://files.pythonhosted.org/packages/70/b3/c19426f783614d625699a4b247faf628ea9ab1db228674491767b417f9e1/setuptools-84.2.1.tar.gz",
       "role": "frozen-runtime",
-      "bytes": 1200343
+      "bytes": 1230289
     },
     {
       "name": "six",
@@ -462,12 +462,12 @@
     },
     {
       "name": "urllib3",
-      "version": "2.7.0",
-      "file": "urllib3-2.7.0.tar.gz",
-      "sha256": "231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c",
-      "url": "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz",
+      "version": "2.8.0",
+      "file": "urllib3-2.8.0.tar.gz",
+      "sha256": "63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63",
+      "url": "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz",
       "role": "frozen-runtime",
-      "bytes": 433602
+      "bytes": 458972
     },
     {
       "name": "uvloop",

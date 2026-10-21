@@ -44,7 +44,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('archive', type=Path)
     parser.add_argument('--helper-dir', type=Path)
-    parser.add_argument('--release', default='v0.1.2', choices=['v0.1.0', 'v0.1.1', 'v0.1.2'])
+    parser.add_argument('--release', default='v0.1.3', choices=['v0.1.0', 'v0.1.1', 'v0.1.2', 'v0.1.3'])
     parser.add_argument('--channel', default='dmg', choices=['dmg', 'app-store'])
     args = parser.parse_args()
     release = json.loads((ROOT / 'releases' / args.release / 'release.json').read_text())

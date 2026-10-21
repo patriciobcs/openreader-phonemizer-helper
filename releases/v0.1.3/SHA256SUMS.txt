@@ -1,0 +1,2 @@
+41194f45b80b061b57215509b8ac7a05e91f81ea2dafed35cfad0e4f5dd7c83c  OpenReader-0.1.2-aarch64-apple-darwin-phonemizer-source.tar.gz
+9904eec3c27c9ad68887357d986f5308b3d9f9fa45959b718ebd67a1fe25690b  OpenReader-0.1.2-mas-phonemizer-source.tar.gz

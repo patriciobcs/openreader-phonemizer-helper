@@ -11,7 +11,7 @@ OpenReader main backend, reader UI, and application repository are not included.
 
 ## Release source
 
-Download [the v0.1.2 source materials](https://github.com/patriciobcs/openreader-phonemizer-helper/releases/tag/v0.1.2).
+Download [the v0.1.3 source materials](https://github.com/patriciobcs/openreader-phonemizer-helper/releases/tag/v0.1.3).
 The release provides separate archives matching the signed DMG and Mac App Store
 helpers, plus `SHA256SUMS.txt`. Choose the channel matching your app. Each archive includes:
 
@@ -20,14 +20,14 @@ helpers, plus `SHA256SUMS.txt`. Choose the channel matching your app. Each archi
 - The exact espeakng-loader 0.2.4 Apple Silicon wheel and extracted Python loader.
 - The original parent desktop dependency declarations and lockfile.
 - Source for all 53 frozen Python distributions and four freezing tools, with notices.
-- Exact Python source checked against all 1,747 PYZ entries, 10 bootstrap/entry
+- Exact Python source checked against all 1,738 PYZ entries, 10 bootstrap/entry
   scripts and 155 base-library modules in the signed helper.
 - CPython, OpenBLAS and GCC source and native build recipes/patches. The three
   GCC runtime libraries are associated through arm64 compiled-section hashes.
 - The loader's pinned upstream MIT source and license.
 - A manifest of all included files and the complete signed helper distribution.
 
-See [the build associations](releases/v0.1.2/README.md) for the exact candidates
+See [the build associations](releases/v0.1.3/README.md) for the exact candidates
 and verification scope. Future app candidates must verify their helper against
 the source materials; the same app version alone is not sufficient evidence.
 
